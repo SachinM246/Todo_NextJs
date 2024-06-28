@@ -5,8 +5,8 @@ import { Todo } from '../components/ui/types';
 
 const Home: React.FC = () => {
   const [todos, setTodos] = useState<Todo[]>([
-    { id: 1, text: 'Learn Next.js', completed: false },
-    { id: 2, text: 'Integrate ShadCN', completed: false },
+    { id: 1, text: 'First Task is to make website using Next Js ans ShadCN', completed: false },
+    { id: 2, text: 'Second task is to learn redux', completed: false },
   ]);
   const [newTodo, setNewTodo] = useState('');
 
