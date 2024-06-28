@@ -11,7 +11,7 @@ const TodoItem: React.FC<TodoItemProps> = ({ todo, onToggle, onDelete, onEdit })
   };
 
   return (
-    <div className={`flex items-center p-2 ${todo.completed ? 'line-through text-gray-500' : ''}`}>
+    <div className={`flex items-center ml-2 bg-violet-300	 rounded-lg p-2 ${todo.completed ? 'line-through text-gray-500' : ''}`}>
       <input
         type="checkbox"
         checked={todo.completed}

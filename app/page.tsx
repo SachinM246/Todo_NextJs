@@ -38,20 +38,20 @@ const Home: React.FC = () => {
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen">
-      <div className="container mx-auto p-4 max-w-lg">
+    <div className="flex items-center justify-center min-h-screen ">
+      <div className="container mx-auto p-4 max-w-lg ">
         <h1 className="text-4xl font-bold mb-4 text-center">To-Do List</h1>
-        <div className="flex mb-4">
+        <div className="flex mb-4 rounded-lg">
           <input
             type="text"
             value={newTodo}
             onChange={(e) => setNewTodo(e.target.value)}
-            className="border p-2 mr-2 flex-grow"
+            className="border rounded-lg p-2 mr-2 flex-grow"
             placeholder="Add a new to-do"
           />
           <button
             onClick={handleAddTodo}
-            className="bg-blue-500 text-white py-2 px-4 rounded"
+            className="bg-blue-500 text-white py-2 px-4 rounded-lg"
           >
             Add
           </button>
